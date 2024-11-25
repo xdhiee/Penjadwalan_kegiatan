@@ -26,7 +26,7 @@
                 
                 <label for="participants">Peserta:</label>
                 <textarea id="participants" name="participants" placeholder="Masukkan nama peserta, pisahkan dengan koma" required></textarea>
-                
+                <p>cukek</p>
                 <button type="submit">Tambahkan</button>
             </form>
         </section>
