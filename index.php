@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,21 +17,21 @@
     <main>
         <section class="menu">
             <div class="menu-item">
-                <a href="#" class="menu-link" onclick="showAddForm()">Tambah Kegiatan</a>
+                <a href="Tambah_Kegiatan.php" class="menu-link">Tambah Kegiatan</a>
             </div>
             <div class="menu-item">
-                <a href="#" class="menu-link" onclick="showSchedule()">Lihat Jadwal</a>
+                <a href="Lihat Kegiatan.php" class="menu-link">Lihat Jadwal</a>
             </div>
             <div class="menu-item">
-                <a href="#" class="menu-link" onclick="alert('Fitur Edit akan diimplementasikan!')">Edit Kegiatan</a>
+                <a href="Ubah Kegiatan.php" class="menu-link">Ubah Kegiatan</a>
             </div>
             <div class="menu-item">
-                <a href="#" class="menu-link" onclick="alert('Fitur Hapus akan diimplementasikan!')">Hapus Kegiatan</a>
+                <a href="Batal Kegiatan.php" class="menu-link">Hapus Kegiatan</a>
             </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Penjadwalan Kegiatan. Semua Hak Dilindungi.</p>
+        <p>&copy; <?php echo date('Y'); ?> Penjadwalan Kegiatan. Semua Hak Dilindungi.</p>
     </footer>
 </body>
 </html>

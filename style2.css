@@ -16,7 +16,7 @@ body {
 
 /* Header */
 header {
-    background-color: #D32F2F;
+    background-color: #2280d7;
     color: white;
     text-align: center;
     padding: 1.5rem 0;
@@ -24,25 +24,26 @@ header {
     font-weight: bold;
 }
 
-/* Form Container */
-.form-container {
+/* Container */
+.schedule-container {
     background: white;
-    max-width: 600px;
+    max-width: 800px;
     margin: 2rem auto;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.form-container h2 {
+.schedule-container h2 {
     text-align: center;
     margin-bottom: 1.5rem;
-    color: #D32F2F;
+    color: #2280d7;
 }
 
-/* Form Groups */
+/* Form */
 .form-group {
     margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 .form-group label {
@@ -52,24 +53,25 @@ header {
 }
 
 .form-group input {
-    width: 100%;
     padding: 0.8rem;
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 1rem;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .form-group input:focus {
     outline: none;
-    border-color: #D32F2F;
-    box-shadow: 0 0 5px rgba(211, 47, 47, 0.3);
+    border-color: #2280d7;
+    box-shadow: 27px 26px 18px -5px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
 /* Button */
 .btn {
-    width: 100%;
-    padding: 0.8rem;
-    background-color: #D32F2F;
+    padding: 0.8rem 1.5rem;
+    background-color: #2280d7;
     color: white;
     font-size: 1rem;
     border: none;
@@ -79,41 +81,52 @@ header {
 }
 
 .btn:hover {
-    background-color: #B71C1C;
+    background-color: #f81100;
+    transition: 0.3s ease;
+
 }
 
-.btn-danger {
-    background-color: #B71C1C;
-    transition: background-color 0.3s ease;
-}
-
-.btn-danger:hover {
-    background-color: #8B0000;
-}
-
-/* Activity Details */
-.activity-details {
-    background: #fef6f6;
-    border: 1px solid #e5baba;
-    padding: 1rem;
-    border-radius: 4px;
-    margin-bottom: 1.5rem;
-}
-
-.activity-details h3 {
-    margin-bottom: 1rem;
-    color: #D32F2F;
-}
-
-.activity-details p {
-    margin-bottom: 0.5rem;
+/* Gaya untuk tombol Keluar */
+.keluar-btn {
+    padding: 0.8rem 1.5rem;
+    background-color: #2280d7;
+    color: white;
     font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.keluar-btn:hover {
+    background-color: #e53935; /* Warna merah lebih gelap saat hover */
+}
+
+
+/* Results */
+.results {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.result-item {
+    background: #f0f0f0;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-item h3 {
+    margin-bottom: 0.5rem;
+    color: #2280d7;
 }
 
 /* Footer */
 footer {
     text-align: center;
-    background-color: #D32F2F;
+    background-color: #2280d7;
     color: white;
     padding: 1rem 0;
     font-size: 0.9rem;

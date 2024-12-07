@@ -16,7 +16,7 @@ body {
 
 /* Header */
 header {
-    background-color: #D32F2F;
+    background-color: #2280d7;
     color: white;
     text-align: center;
     padding: 1.5rem 0;
@@ -60,18 +60,18 @@ main {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
-    color: #D32F2F;
+    color: #2280d7;
     transition: color 0.3s ease;
 }
 
 .menu-link:hover {
-    color: #D32F2F;
+    color: #2280d7;
 }
 
 /* Footer */
 footer {
     text-align: center;
-    background-color: #D32F2F;
+    background-color: #2280d7;
     color: white;
     padding: 1rem 0;
     font-size: 0.9rem;
