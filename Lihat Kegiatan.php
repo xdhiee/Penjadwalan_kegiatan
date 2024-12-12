@@ -34,10 +34,10 @@ if (isset($_POST['tanggal'])) {
                     <label for="date">Cari berdasarkan tanggal:</label>
                     <input type="date" id="tanggal" name="tanggal" required>
                 </div>
-                <div class="form-group">
+                <div class="center">
                     <button type="submit" class="btn">Cari</button>
                 </div>
-                <div class="form-group">
+                <div class="center">
                     <a href="index.php" class="btn keluar-btn">Keluar</a>
                 </div>
             </form>

@@ -59,6 +59,9 @@ $conn->close();
                     <button type="submit" class="btn">Tambah Kegiatan</button>
                     
                 </div>
+                <div class="center">
+                <a href="index.php" class="btn_keluar">Keluar</a>
+                </div>
             </form>
         </div>
     </main>
